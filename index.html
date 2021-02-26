@@ -3,19 +3,77 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script src="js/javascript.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
 <title>Beta 1</title>
 </head>
 
 <body>
-
-<!--cover w/ skrollr values (for example data-100 for styles at 100 pixels scroled)-->
-<div class="logocon" data-0="height: 100vh; opacity: 1" data-99="height: 10vh; opacity: .85" data-100="height: 50px">
-    <div class="logo" data-0="font-size: 150px" data-100="font-size: 32px">cave</div>
-  </div>
-  <div class="hint" data-0="bottom: 10vh" data-100="bottom: -25px">scroll down</div>
-  <!--page contents below-->
-
-</body>
-
+    <body>
+        <header class="main-header">
+          <div class="header-wrapper">
+            <div class="main-logo">MoGo</div>
+            <nav>
+              <ul class="main-menu">
+                <li><a href="#section-2">About</a></li>
+                <li><a href="#section-5">Service</a></li>
+                <li><a href="#section-7">Work</a></li>
+                <li><a href="#section-9">Blog</a></li>
+                <li><a href="#main-footer">Contact</a></li>
+                <li><a href="#"><span class="fa fa-shopping-cart"></span></a></li>
+                <li><a href="#"><span class="fa fa-search"></span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <section id="section-1">
+          <div class="content-slider">
+            <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+            <input type="radio" id="banner2" class="sec-1-input" name="banner">
+            <input type="radio" id="banner3" class="sec-1-input" name="banner">
+            <input type="radio" id="banner4" class="sec-1-input" name="banner">
+            <div class="slider">
+              <div id="top-banner-1" class="banner">
+                <div class="banner-inner-wrapper">
+                  <h2>Creative Template</h2>
+                  <h1>Welcome<br>to MoGo</h1>
+                  <div class="line"></div>
+                  <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+                </div>
+              </div>
+              <div id="top-banner-2" class="banner">
+                <div class="banner-inner-wrapper">
+                  <h2>What We Do</h2>
+                  <h1>Great<br>MoGo</h1>
+                  <div class="line"></div>
+                  <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
+                </div>
+              </div>
+              <div id="top-banner-3" class="banner">
+                <div class="banner-inner-wrapper">
+                  <h2>Here We Are</h2>
+                  <h1>We Are<br>MoGo</h1>
+                  <div class="line"></div>
+                  <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
+                </div>
+              </div>
+              <div id="top-banner-4" class="banner">
+                <div class="banner-inner-wrapper">
+                  <h2>Our Contacts</h2>
+                  <h1>Welcome<br>to MoGo</h1>
+                  <div class="line"></div>
+                  <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
+                </div>
+              </div>
+            </div>
+            <nav>
+              <div class="controls">
+                <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
+                <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
+                <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
+                <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
+              </div>
+            </nav>
+          </div>
+        </section>
+      </body>
 </html>

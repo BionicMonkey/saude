@@ -1,6 +1,26 @@
-skrollr.init();
-
-/* HEY THERE!
-This cave thingy is based on this pen of mine here: https://codepen.io/Ovoce/pen/jucIg/
-So go check it out... You might need it 20 years in the future.
-*/
+///// Section-1 CSS-Slider /////
+// Auto Switching Images for CSS-Slider
+function bannerSwitcher() {
+    next = $(".sec-1-input").filter(":checked").next(".sec-1-input");
+    if (next.length) next.prop("checked", true);
+    else $(".sec-1-input").first().prop("checked", true);
+  }
+  
+  var bannerTimer = setInterval(bannerSwitcher, 5000);
+  
+  $("nav .controls label").click(function () {
+    clearInterval(bannerTimer);
+    bannerTimer = setInterval(bannerSwitcher, 5000);
+  });
+  
+  ///// Anchor Smooth Scroll /////
+  //   $('.main-menu a, .learn-more-button a').click(function(e){
+  
+  //     e.preventDefault();
+  
+  //     var target = $(this).attr('href');
+  
+  //     $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+  //     return false;
+  //   });
+  
