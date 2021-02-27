@@ -186,6 +186,15 @@ height: 160px;
 
 
 
+#message2 {
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+}
+
+#message {
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+}
 
 
 
@@ -671,5 +680,8 @@ body {
     border: 0.1875em solid #fff;
     }
 
+
+
+   
   }
 
