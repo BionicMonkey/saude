@@ -63,9 +63,9 @@ function calc() {
     // mostra resultado
     resultado = resultado.toFixed(2).replace(/\./g, ",");
     document.getElementById("message2").innerHTML =
-    "VEJA SEU RESULTADO CLICANDO EM '02 PASSO 👇'";
+    "VEJA SEU RESULTADO CLICANDO EM 'PASSO 02 👇'";
 
     document.getElementById("message").innerHTML =
       "Seu IMC é : " + resultado + "<br>" + message;
-  }
+  } 
   
