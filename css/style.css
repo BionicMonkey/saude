@@ -173,7 +173,7 @@ height: 160px;
 100% {
   transform: translateY(-700px) rotate(600deg);
 }
-}
+} 
 @keyframes square {
 0% {
   transform: translateY(0);
@@ -194,6 +194,16 @@ height: 160px;
 #message {
     font-size: 15px;
     font-family: Montserrat, sans-serif;
+    z-index: 1000;
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -408,7 +418,6 @@ body {
     background-size: cover;
   }
   #section-1 .content-slider .slider #top-banner-2 {
-    background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-2.png') no-repeat center center;
     background-size: cover;
   }
   #section-1 .content-slider .slider #top-banner-3 {
@@ -681,7 +690,21 @@ body {
     }
 
 
-
+    
    
+  }
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9*/
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
   }
 
