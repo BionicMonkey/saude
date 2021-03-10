@@ -132,7 +132,12 @@ label .jdsjkefkefkefefexco {
 .two-c:valid+label,
 .three-c:valid+label,
 .four-b:valid+label,
-.five-a:valid+label {
+.five-a:valid+label,
+.six-b:valid+label,
+.seven-b:valid+label,
+.eight-b:valid+label,
+.nine-a:valid+label,
+.ten-c:valid+label {
   animation: flash 0.6s infinite;
 }
 
