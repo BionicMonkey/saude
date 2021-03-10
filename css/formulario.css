@@ -237,7 +237,12 @@ form:invalid #btn {
 .two-c:checked,
 .three-c:checked,
 .four-b:checked,
-.five-a:checked {
+.five-a:checked,
+.six-b:checked,
+.seven-b:checked,
+.eight-b:checked,
+.nine-a:checked,
+.ten-c:checked {
   counter-increment: points;
 }
 
